@@ -13,8 +13,8 @@ public with sharing class SimpleSOQL1
     public List<Contact> getCEOs()
     {
         // change this method to return all contacts with the 
-        // title of 'CEO'. Include the title field in the 
-        // returned results
+        // title of 'CEO'. Include the First name, last name and 
+        // title fields in the returned results
 
         return null;
     }
