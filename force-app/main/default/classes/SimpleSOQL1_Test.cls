@@ -105,7 +105,7 @@ private class SimpleSOQL1_Test
         for (Integer idx=0; idx<10; idx++)
         {
             Integer contCount=(Math.random() * 50).intValue();
-            contactCountForAccount[idx]=contCount;
+            contactCountForAccount.add(contCount);
 
             for (Integer contIdx=0; contIdx<contCount; contIdx++)
             {
