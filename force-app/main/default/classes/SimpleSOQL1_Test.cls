@@ -50,6 +50,8 @@ private class SimpleSOQL1_Test
         for (Contact ceo : ceos)
         {
             System.assertEquals('CEO', ceo.Title, 'Record for ' + ceo.FirstName + ' ' + ceo.LastName + ' does not have the title of \'CEO\'');
+            System.assertNotEquals(null, ceo.FirstName, 'First name must be included in the results');
+            System.assertNotEquals(null, ceo.LastName, 'Last name must be included in the results');
         }
     }
 
