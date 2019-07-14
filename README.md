@@ -1,8 +1,3 @@
-THIS IS A DRAFT CHALLENGE
-
-You can work on the challenge, but you can't submit it for mentoring and it may
-change underneath you.
-
 # Simple SOQL 1 Mentz Challenge
 
 ## About
