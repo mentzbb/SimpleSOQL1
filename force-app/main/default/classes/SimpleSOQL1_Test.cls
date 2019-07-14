@@ -130,7 +130,7 @@ private class SimpleSOQL1_Test
         }
 
         SimpleSOQL1 ss1=new SimpleSOQL1();
-        List<Contact> contactsForAccounts=ss1.getContactsForAccounts(accounts);
+        List<Contact> contactsForAccounts=ss1.getContactsForAccounts(accs);
 
         System.assertEquals(contactCount, contactsForAccounts.size(), 'Should be ' + contactCount + ' contacts');
 
